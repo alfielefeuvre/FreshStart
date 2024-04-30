@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1483499C2BE177A8004CDB5C /* FreshStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483499B2BE177A8004CDB5C /* FreshStartApp.swift */; };
+		1483499E2BE177A8004CDB5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483499D2BE177A8004CDB5C /* ContentView.swift */; };
+		148349A02BE177A9004CDB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1483499F2BE177A9004CDB5C /* Assets.xcassets */; };
+		148349A32BE177A9004CDB5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148349A22BE177A9004CDB5C /* Preview Assets.xcassets */; };
+		148349AD2BE177A9004CDB5C /* FreshStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349AC2BE177A9004CDB5C /* FreshStartTests.swift */; };
+		148349B72BE177A9004CDB5C /* FreshStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349B62BE177A9004CDB5C /* FreshStartUITests.swift */; };
+		148349B92BE177A9004CDB5C /* FreshStartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349B82BE177A9004CDB5C /* FreshStartUITestsLaunchTests.swift */; };
+		148349BF2BE177A9004CDB5C /* FreshStart Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 148349BE2BE177A9004CDB5C /* FreshStart Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		148349C42BE177A9004CDB5C /* FreshStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349C32BE177A9004CDB5C /* FreshStartApp.swift */; };
+		148349C62BE177A9004CDB5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349C52BE177A9004CDB5C /* ContentView.swift */; };
+		148349C82BE177AA004CDB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148349C72BE177AA004CDB5C /* Assets.xcassets */; };
+		148349CB2BE177AA004CDB5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148349CA2BE177AA004CDB5C /* Preview Assets.xcassets */; };
+		148349D52BE177AA004CDB5C /* FreshStart_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349D42BE177AA004CDB5C /* FreshStart_Watch_AppTests.swift */; };
+		148349DF2BE177AA004CDB5C /* FreshStart_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349DE2BE177AA004CDB5C /* FreshStart_Watch_AppUITests.swift */; };
+		148349E12BE177AA004CDB5C /* FreshStart_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148349E02BE177AA004CDB5C /* FreshStart_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148349A92BE177A9004CDB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148349902BE177A7004CDB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148349972BE177A8004CDB5C;
+			remoteInfo = FreshStart;
+		};
+		148349B32BE177A9004CDB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148349902BE177A7004CDB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148349972BE177A8004CDB5C;
+			remoteInfo = FreshStart;
+		};
+		148349C02BE177A9004CDB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148349902BE177A7004CDB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148349BD2BE177A9004CDB5C;
+			remoteInfo = "FreshStart Watch App";
+		};
+		148349D12BE177AA004CDB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148349902BE177A7004CDB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148349BD2BE177A9004CDB5C;
+			remoteInfo = "FreshStart Watch App";
+		};
+		148349DB2BE177AA004CDB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148349902BE177A7004CDB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148349BD2BE177A9004CDB5C;
+			remoteInfo = "FreshStart Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		148349E72BE177AA004CDB5C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				148349BF2BE177A9004CDB5C /* FreshStart Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		148349982BE177A8004CDB5C /* FreshStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1483499B2BE177A8004CDB5C /* FreshStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStartApp.swift; sourceTree = "<group>"; };
+		1483499D2BE177A8004CDB5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1483499F2BE177A9004CDB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148349A22BE177A9004CDB5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		148349A82BE177A9004CDB5C /* FreshStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148349AC2BE177A9004CDB5C /* FreshStartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStartTests.swift; sourceTree = "<group>"; };
+		148349B22BE177A9004CDB5C /* FreshStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148349B62BE177A9004CDB5C /* FreshStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStartUITests.swift; sourceTree = "<group>"; };
+		148349B82BE177A9004CDB5C /* FreshStartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		148349BE2BE177A9004CDB5C /* FreshStart Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FreshStart Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148349C32BE177A9004CDB5C /* FreshStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStartApp.swift; sourceTree = "<group>"; };
+		148349C52BE177A9004CDB5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		148349C72BE177AA004CDB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148349CA2BE177AA004CDB5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		148349D02BE177AA004CDB5C /* FreshStart Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FreshStart Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148349D42BE177AA004CDB5C /* FreshStart_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStart_Watch_AppTests.swift; sourceTree = "<group>"; };
+		148349DA2BE177AA004CDB5C /* FreshStart Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FreshStart Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148349DE2BE177AA004CDB5C /* FreshStart_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStart_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		148349E02BE177AA004CDB5C /* FreshStart_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshStart_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148349952BE177A8004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349A52BE177A9004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349AF2BE177A9004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349BB2BE177A9004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349CD2BE177AA004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349D72BE177AA004CDB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1483498F2BE177A7004CDB5C = {
+			isa = PBXGroup;
+			children = (
+				1483499A2BE177A8004CDB5C /* FreshStart */,
+				148349AB2BE177A9004CDB5C /* FreshStartTests */,
+				148349B52BE177A9004CDB5C /* FreshStartUITests */,
+				148349C22BE177A9004CDB5C /* FreshStart Watch App */,
+				148349D32BE177AA004CDB5C /* FreshStart Watch AppTests */,
+				148349DD2BE177AA004CDB5C /* FreshStart Watch AppUITests */,
+				148349992BE177A8004CDB5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148349992BE177A8004CDB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148349982BE177A8004CDB5C /* FreshStart.app */,
+				148349A82BE177A9004CDB5C /* FreshStartTests.xctest */,
+				148349B22BE177A9004CDB5C /* FreshStartUITests.xctest */,
+				148349BE2BE177A9004CDB5C /* FreshStart Watch App.app */,
+				148349D02BE177AA004CDB5C /* FreshStart Watch AppTests.xctest */,
+				148349DA2BE177AA004CDB5C /* FreshStart Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1483499A2BE177A8004CDB5C /* FreshStart */ = {
+			isa = PBXGroup;
+			children = (
+				1483499B2BE177A8004CDB5C /* FreshStartApp.swift */,
+				1483499D2BE177A8004CDB5C /* ContentView.swift */,
+				1483499F2BE177A9004CDB5C /* Assets.xcassets */,
+				148349A12BE177A9004CDB5C /* Preview Content */,
+			);
+			path = FreshStart;
+			sourceTree = "<group>";
+		};
+		148349A12BE177A9004CDB5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				148349A22BE177A9004CDB5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		148349AB2BE177A9004CDB5C /* FreshStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				148349AC2BE177A9004CDB5C /* FreshStartTests.swift */,
+			);
+			path = FreshStartTests;
+			sourceTree = "<group>";
+		};
+		148349B52BE177A9004CDB5C /* FreshStartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148349B62BE177A9004CDB5C /* FreshStartUITests.swift */,
+				148349B82BE177A9004CDB5C /* FreshStartUITestsLaunchTests.swift */,
+			);
+			path = FreshStartUITests;
+			sourceTree = "<group>";
+		};
+		148349C22BE177A9004CDB5C /* FreshStart Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				148349C32BE177A9004CDB5C /* FreshStartApp.swift */,
+				148349C52BE177A9004CDB5C /* ContentView.swift */,
+				148349C72BE177AA004CDB5C /* Assets.xcassets */,
+				148349C92BE177AA004CDB5C /* Preview Content */,
+			);
+			path = "FreshStart Watch App";
+			sourceTree = "<group>";
+		};
+		148349C92BE177AA004CDB5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				148349CA2BE177AA004CDB5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		148349D32BE177AA004CDB5C /* FreshStart Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				148349D42BE177AA004CDB5C /* FreshStart_Watch_AppTests.swift */,
+			);
+			path = "FreshStart Watch AppTests";
+			sourceTree = "<group>";
+		};
+		148349DD2BE177AA004CDB5C /* FreshStart Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148349DE2BE177AA004CDB5C /* FreshStart_Watch_AppUITests.swift */,
+				148349E02BE177AA004CDB5C /* FreshStart_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "FreshStart Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148349972BE177A8004CDB5C /* FreshStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349E82BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart" */;
+			buildPhases = (
+				148349942BE177A8004CDB5C /* Sources */,
+				148349952BE177A8004CDB5C /* Frameworks */,
+				148349962BE177A8004CDB5C /* Resources */,
+				148349E72BE177AA004CDB5C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148349C12BE177A9004CDB5C /* PBXTargetDependency */,
+			);
+			name = FreshStart;
+			productName = FreshStart;
+			productReference = 148349982BE177A8004CDB5C /* FreshStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148349A72BE177A9004CDB5C /* FreshStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349EB2BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStartTests" */;
+			buildPhases = (
+				148349A42BE177A9004CDB5C /* Sources */,
+				148349A52BE177A9004CDB5C /* Frameworks */,
+				148349A62BE177A9004CDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148349AA2BE177A9004CDB5C /* PBXTargetDependency */,
+			);
+			name = FreshStartTests;
+			productName = FreshStartTests;
+			productReference = 148349A82BE177A9004CDB5C /* FreshStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148349B12BE177A9004CDB5C /* FreshStartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349EE2BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStartUITests" */;
+			buildPhases = (
+				148349AE2BE177A9004CDB5C /* Sources */,
+				148349AF2BE177A9004CDB5C /* Frameworks */,
+				148349B02BE177A9004CDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148349B42BE177A9004CDB5C /* PBXTargetDependency */,
+			);
+			name = FreshStartUITests;
+			productName = FreshStartUITests;
+			productReference = 148349B22BE177A9004CDB5C /* FreshStartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		148349BD2BE177A9004CDB5C /* FreshStart Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349E42BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch App" */;
+			buildPhases = (
+				148349BA2BE177A9004CDB5C /* Sources */,
+				148349BB2BE177A9004CDB5C /* Frameworks */,
+				148349BC2BE177A9004CDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FreshStart Watch App";
+			productName = "FreshStart Watch App";
+			productReference = 148349BE2BE177A9004CDB5C /* FreshStart Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148349CF2BE177AA004CDB5C /* FreshStart Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349F12BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch AppTests" */;
+			buildPhases = (
+				148349CC2BE177AA004CDB5C /* Sources */,
+				148349CD2BE177AA004CDB5C /* Frameworks */,
+				148349CE2BE177AA004CDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148349D22BE177AA004CDB5C /* PBXTargetDependency */,
+			);
+			name = "FreshStart Watch AppTests";
+			productName = "FreshStart Watch AppTests";
+			productReference = 148349D02BE177AA004CDB5C /* FreshStart Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148349D92BE177AA004CDB5C /* FreshStart Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148349F42BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch AppUITests" */;
+			buildPhases = (
+				148349D62BE177AA004CDB5C /* Sources */,
+				148349D72BE177AA004CDB5C /* Frameworks */,
+				148349D82BE177AA004CDB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148349DC2BE177AA004CDB5C /* PBXTargetDependency */,
+			);
+			name = "FreshStart Watch AppUITests";
+			productName = "FreshStart Watch AppUITests";
+			productReference = 148349DA2BE177AA004CDB5C /* FreshStart Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148349902BE177A7004CDB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					148349972BE177A8004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					148349A72BE177A9004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 148349972BE177A8004CDB5C;
+					};
+					148349B12BE177A9004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 148349972BE177A8004CDB5C;
+					};
+					148349BD2BE177A9004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					148349CF2BE177AA004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 148349BD2BE177A9004CDB5C;
+					};
+					148349D92BE177AA004CDB5C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 148349BD2BE177A9004CDB5C;
+					};
+				};
+			};
+			buildConfigurationList = 148349932BE177A7004CDB5C /* Build configuration list for PBXProject "FreshStart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1483498F2BE177A7004CDB5C;
+			productRefGroup = 148349992BE177A8004CDB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148349972BE177A8004CDB5C /* FreshStart */,
+				148349A72BE177A9004CDB5C /* FreshStartTests */,
+				148349B12BE177A9004CDB5C /* FreshStartUITests */,
+				148349BD2BE177A9004CDB5C /* FreshStart Watch App */,
+				148349CF2BE177AA004CDB5C /* FreshStart Watch AppTests */,
+				148349D92BE177AA004CDB5C /* FreshStart Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148349962BE177A8004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349A32BE177A9004CDB5C /* Preview Assets.xcassets in Resources */,
+				148349A02BE177A9004CDB5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349A62BE177A9004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349B02BE177A9004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349BC2BE177A9004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349CB2BE177AA004CDB5C /* Preview Assets.xcassets in Resources */,
+				148349C82BE177AA004CDB5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349CE2BE177AA004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349D82BE177AA004CDB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148349942BE177A8004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1483499E2BE177A8004CDB5C /* ContentView.swift in Sources */,
+				1483499C2BE177A8004CDB5C /* FreshStartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349A42BE177A9004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349AD2BE177A9004CDB5C /* FreshStartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349AE2BE177A9004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349B92BE177A9004CDB5C /* FreshStartUITestsLaunchTests.swift in Sources */,
+				148349B72BE177A9004CDB5C /* FreshStartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349BA2BE177A9004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349C62BE177A9004CDB5C /* ContentView.swift in Sources */,
+				148349C42BE177A9004CDB5C /* FreshStartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349CC2BE177AA004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349D52BE177AA004CDB5C /* FreshStart_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148349D62BE177AA004CDB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148349E12BE177AA004CDB5C /* FreshStart_Watch_AppUITestsLaunchTests.swift in Sources */,
+				148349DF2BE177AA004CDB5C /* FreshStart_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148349AA2BE177A9004CDB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148349972BE177A8004CDB5C /* FreshStart */;
+			targetProxy = 148349A92BE177A9004CDB5C /* PBXContainerItemProxy */;
+		};
+		148349B42BE177A9004CDB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148349972BE177A8004CDB5C /* FreshStart */;
+			targetProxy = 148349B32BE177A9004CDB5C /* PBXContainerItemProxy */;
+		};
+		148349C12BE177A9004CDB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148349BD2BE177A9004CDB5C /* FreshStart Watch App */;
+			targetProxy = 148349C02BE177A9004CDB5C /* PBXContainerItemProxy */;
+		};
+		148349D22BE177AA004CDB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148349BD2BE177A9004CDB5C /* FreshStart Watch App */;
+			targetProxy = 148349D12BE177AA004CDB5C /* PBXContainerItemProxy */;
+		};
+		148349DC2BE177AA004CDB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148349BD2BE177A9004CDB5C /* FreshStart Watch App */;
+			targetProxy = 148349DB2BE177AA004CDB5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148349E22BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148349E32BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		148349E52BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshStart Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreshStart;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.PhysicalViolence.FreshStart;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStart.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		148349E62BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshStart Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreshStart;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.PhysicalViolence.FreshStart;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStart.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		148349E92BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshStart/Preview Content\"";
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreshStart;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148349EA2BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreshStart/Preview Content\"";
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreshStart;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148349EC2BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshStart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreshStart";
+			};
+			name = Debug;
+		};
+		148349ED2BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshStart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreshStart";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148349EF2BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshStart;
+			};
+			name = Debug;
+		};
+		148349F02BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhysicalViolence.FreshStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreshStart;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148349F22BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PhysicalViolence.FreshStart-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshStart Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreshStart Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		148349F32BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PhysicalViolence.FreshStart-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshStart Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreshStart Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		148349F52BE177AA004CDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PhysicalViolence.FreshStart-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FreshStart Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		148349F62BE177AA004CDB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWP7JZ8MD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PhysicalViolence.FreshStart-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FreshStart Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148349932BE177A7004CDB5C /* Build configuration list for PBXProject "FreshStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349E22BE177AA004CDB5C /* Debug */,
+				148349E32BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349E42BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349E52BE177AA004CDB5C /* Debug */,
+				148349E62BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349E82BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349E92BE177AA004CDB5C /* Debug */,
+				148349EA2BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349EB2BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349EC2BE177AA004CDB5C /* Debug */,
+				148349ED2BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349EE2BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349EF2BE177AA004CDB5C /* Debug */,
+				148349F02BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349F12BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349F22BE177AA004CDB5C /* Debug */,
+				148349F32BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148349F42BE177AA004CDB5C /* Build configuration list for PBXNativeTarget "FreshStart Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148349F52BE177AA004CDB5C /* Debug */,
+				148349F62BE177AA004CDB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148349902BE177A7004CDB5C /* Project object */;
+}
